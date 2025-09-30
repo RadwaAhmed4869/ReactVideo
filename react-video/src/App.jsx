@@ -29,7 +29,7 @@ function App() {
     <>
       <ReactPlayer
         ref={videoRef}
-        src='/assets/views.mp4'
+        src='/assets/LAYOUT_test.mp4'
         width="100%"
         playing={play}
         controls
