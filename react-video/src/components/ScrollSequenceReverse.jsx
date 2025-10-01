@@ -1,7 +1,7 @@
-import "./SequenceReverse.css";
+import "./ScrollSequenceReverse.css";
 import { useEffect, useRef } from "react";
 
-export default function SequenceReverse() {
+export default function ScrollSequenceReverse() {
   const canvasRef = useRef(null);
 
   useEffect(() => {

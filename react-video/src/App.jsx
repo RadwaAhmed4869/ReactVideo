@@ -1,11 +1,11 @@
 import "./App.css";
 import CurrentTimeReverse from "./components/CurrentTimeReverse";
-import SequenceReverse from "./components/SequenceReverse";
+import ScrollSequenceReverse from "./components/ScrollSequenceReverse";
 
 function App() {
   return (
     <>
-      <SequenceReverse />
+      <ScrollSequenceReverse />
     </>
   );
 }
