@@ -45,9 +45,9 @@ export default function SequenceReverse() {
     window.addEventListener("scroll", () => {
       const html = document.documentElement;
       const wrap = document.querySelector(".png__sequence");
-      const scrollTop = html.scrollTop;
-      const maxScrollTop = wrap.scrollHeight - window.innerHeight;
-      const scrollFraction = scrollTop / maxScrollTop;
+      const scrollLeft = html.scrollLeft;
+      const maxScrollLeft = wrap.scrollWidth - window.innerWidth;
+      const scrollFraction = scrollLeft / maxScrollLeft;
       const frameIndex = Math.min(
         frameCount - 1,
         Math.floor(scrollFraction * frameCount)

@@ -1,6 +1,14 @@
+*{
+ margin: 0 !important;
+ padding: 0 !important;
+ box-sizing: border-box;
+
+}
+
 .png__sequence {
-  width: 100%;
-  height: 500vh;
+  width:500vw;
+  height: 100%;
+  object-fit: cover;
   position: relative;
 }
 canvas {
@@ -12,4 +20,16 @@ canvas {
   max-height: 100vh;
   position: sticky;
   z-index: 1;
+  overflow: hidden;
+  display: flex;
 }
+
+/* canvas {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 400vw;
+  height:100vh;
+  display: flex;
+  will-change: transform;
+} */
