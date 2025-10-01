@@ -23,13 +23,3 @@ canvas {
   overflow: hidden;
   display: flex;
 }
-
-/* canvas {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 400vw;
-  height:100vh;
-  display: flex;
-  will-change: transform;
-} */

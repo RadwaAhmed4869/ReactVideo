@@ -73,3 +73,4 @@ export default function SequenceReverse() {
 }
 
 //Resource: https://dev.to/pipscript/creating-a-png-sequence-animation-using-react-and-scss-k71
+//https://youtu.be/4ehYkfh7P-I?si=Dk8d86VZmZsFWx_8
