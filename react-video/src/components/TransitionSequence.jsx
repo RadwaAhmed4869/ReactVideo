@@ -73,19 +73,25 @@ export default function TransitionSequence() {
     }, []);
 
     return (
-        <section className="png__sequence">
-            {/* <h1>{index}</h1> */}
-            <canvas
-                ref={canvasRef}
-                width={window.innerWidth}
-                height={window.innerHeight}
-                className="png__sequence__canvas"
-                id="canvas"
-            >
-                {" "}
-            </canvas>
-            <button onClick={StartTransition} disabled={isTransitioning}>Transition</button>
-            <button onClick={StartReverse} disabled={isTransitioning}>Reverse</button>
-        </section>
+        <>
+            <section className="png__sequence">
+                {/* <h1>{index}</h1> */}
+                <canvas
+                    ref={canvasRef}
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                    className="png__sequence__canvas"
+                    id="canvas"
+                >
+                    {" "}
+                </canvas>
+
+            </section>
+            <section>
+                <button onClick={StartTransition} disabled={isTransitioning}>Transition</button>
+                <button onClick={StartReverse} disabled={isTransitioning}>Reverse</button>
+            </section>
+        </>
+
     );
 }
