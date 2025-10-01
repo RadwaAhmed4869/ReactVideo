@@ -1,8 +1,7 @@
-*{
+/* *{
  margin: 0 !important;
  padding: 0 !important;
  box-sizing: border-box;
-
 }
 
 .png__sequence {
@@ -22,4 +21,4 @@ canvas {
   z-index: 1;
   overflow: hidden;
   display: flex;
-}
+} */
