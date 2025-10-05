@@ -19,7 +19,8 @@ export default function TransitionSequence() {
         `/src/assets/zone/Zone1_Gen_trans${i < 10 ? i
             .toString()
             .padStart(2, "0") : i.toString()}.jpg`);
-console.log(imagesPaths);
+
+    // console.log(imagesPaths);
 
     const drawImage = (index) => {
         const canvas = canvasRef.current;

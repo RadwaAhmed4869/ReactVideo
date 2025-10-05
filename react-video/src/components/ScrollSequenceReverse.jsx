@@ -1,4 +1,4 @@
-import "./ScrollSequenceReverse.css";
+// import "./ScrollSequenceReverse.css";
 import { useEffect, useRef } from "react";
 
 export default function ScrollSequenceReverse() {
