@@ -7,13 +7,19 @@ export default function TransitionSequence() {
     const canvasRef = useRef(null);
     const canvas = canvasRef.current;
 
-    const noOfFrames = 181;
-    const fbs = 29;
+    const noOfFrames = 46;
+    const fbs = 60;
+
+    // const imagesPaths = Array.from({ length: noOfFrames + 1 }, (_, i) =>
+    //     `/src/assets/sequence/frame_${i
+    //         .toString()
+    //         .padStart(4, "0")}.jpg`);
 
     const imagesPaths = Array.from({ length: noOfFrames + 1 }, (_, i) =>
-        `/src/assets/sequence/frame_${i
+        `/src/assets/zone/Zone1_Gen_trans${i < 10 ? i
             .toString()
-            .padStart(4, "0")}.jpg`);
+            .padStart(2, "0") : i.toString()}.jpg`);
+console.log(imagesPaths);
 
     const drawImage = (index) => {
         const canvas = canvasRef.current;
