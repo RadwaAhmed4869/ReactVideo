@@ -2,11 +2,12 @@
 import CurrentTimeReverse from "./components/CurrentTimeReverse";
 import ScrollSequenceReverse from "./components/ScrollSequenceReverse";
 import TransitionSequence from "./components/TransitionSequence";
+import StyledTransition from "./components/StyledTransition";
 
 function App() {
   return (
     <>
-      <TransitionSequence />
+      <StyledTransition />
     </>
   );
 }
